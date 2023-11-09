@@ -15,10 +15,11 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 - Genero un array che contenga le varie mail che avranno la verifica = true
 - L'utente inserirà in Input l'email
-- Utilizzero il ciclo for, per controllare se l'input dell'utente corrisponde a una delle mail presenti nell'elenco
-  \*Nel caso di inserimento positivo stampo in console un messaggio di verifica corretta
+- Utilizzo il ciclo for, per controllare se l'input dell'utente corrisponde a una delle mail presenti nell'elenco:
+  Nel caso di inserimento positivo stampo in console un messaggio di verifica corretta, altrimenti ci sarà esito negativo e non si potrà accedere
 
 **Esercizio 2: Gioco dei Dadi**
 
+- Dichiaro con let i giocatori che parteciperanno alla sfida
 - Assegno un numero casuale alle 2 variabili che andrò a creare con math.random
-- Userò il metodo del confronto tra le 2 variabili, quella che avrà il numero maggiore vince!(Speriamo che l'utente riesca a battere il CPU!)
+- Userò il metodo del confronto tra le 2 variabili, quella che avrà il numero maggiore vince!(Speriamo che l'utente riesca a battere il CPU!), ci può essere anche il pareggio se il PlayerHuman ottiene lo stesso numero del PlayerAi
