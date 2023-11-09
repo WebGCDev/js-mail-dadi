@@ -8,7 +8,7 @@ let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 playerHuman = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log(playerHuman);
 
-playerAi = Math.floor(Math.random() * (max - min + 1)) + min;
+playerAi = Math.floor(Math.random() * (max - min - 5)) + min;
 console.log(playerAi);
 
 if (playerHuman === playerAi) {
